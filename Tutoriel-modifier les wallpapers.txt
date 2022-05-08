@@ -1,0 +1,25 @@
+----> MODIFIER WALLPAPER VILLES <----
+
+1- ouvrir le fichier "content.js"
+(avec notepad ou Visual Studio Code)
+
+2- remplacer les liens 'https://...' par vos URL
+selon les villes que vous souhaitez
+
+3- sauvegarder le fichier
+
+4- Uninstall-reinstall (suivre la procédure "Tutoriel-installation-désinstallation")
+
+**************************************************************
+
+----> MODIFIER WALLPAPER GENERAL (défaut = blanc) <----
+
+1- ouvrir le fichier "style.css"
+(avec notepad ou Visual Studio Code)
+
+2- remplacer le premier lien qui apparaît 'https://...'
+par l'URL de votre choix
+
+3- sauvegarder le fichier
+
+4- Uninstall-reinstall (suivre la procédure "Tutoriel-installation-désinstallation")

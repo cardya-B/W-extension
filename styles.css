@@ -1,0 +1,153 @@
+body.lay_standard {
+        background-image:url('https://mulder-onions.com/wp-content/uploads/2017/02/White-square.jpg') !important;
+       }
+
+.cadre, .cadrelarge, .cadrefull, .cadresimple, .cadrescroll, .cadretest {
+        border-color: #EEEEFF;
+        border-style: outset;
+        background-color: #CCCCFF;
+        font-size: small;
+
+}
+
+.bodyback {
+height: 100%;
+background-image: url('unicorn.gif');
+background-repeat: repeat-y;
+background-position: center;
+background-color: #525552;
+margin: 0px;
+padding: 0px;
+}
+
+
+A.partenaireCenter:link {font-size: 14px; font-family: Verdana; color: black; font-weight: bold; vertical-align: center; margin: 10px;}
+A.partenaireCenter:visited {font-size: 14px; font-family: Verdana; color: black; font-weight: bold; vertical-align: center; margin: 10px;}
+
+.question { font-size: 12px; color: red;}
+.reponse { margin-left: 10em;
+            font-size: 12px;
+            color: green;}
+.cadre { width: 165;}
+.cadrelarge {width: 265px;}
+.cadrefull  { width: 100%;}
+.general {width: 100%; height: 100%;}
+.leftbar{width: 195; height: 100%;
+	 text-align: left; vertical-align: top;
+       padding-right: 5px; border-right: 2px solid Maroon;}
+.rightbody {width: 100%; text-align: left; vertical-align: top; padding-left: 2px;}
+
+.rightcol{width: 165; height: 100%;
+	 text-align: left; vertical-align: top;}
+.leftbody{width: 100%; text-align: left; vertical-align: top;}
+.cadre A:link,.cadrelarge A:link {
+	text-decoration: none;
+	color: Purple;
+}
+.cadre A:visited,.cadrelarge A:visited {
+	text-decoration: none;
+	 color: Purple;
+}
+A:hover,.cadre A:hover,.cadrelarge A:hover {
+	text-decoration: underline; color: Red;
+}
+
+table.menu {
+	width: 90%;
+}
+.button, .highbutton {
+        border-color: #EEEEFF;
+	background-color:  #CC99FF;
+	color: CCFFCC;
+	padding: 0cm 0.25cm;
+        cursor: hand;
+        border-style: outset;
+}
+.button {
+        background-color:  #CC99FF;
+	color: CCFFCC;
+}
+.highbutton {
+        background-color:  Red;
+	color: CCFFCC;
+}
+
+.button A:link,.highbutton  A:link {text-decoration: none; color: Yellow; }
+.button A:visited,.highbutton  A:visited {text-decoration: none; color: Yellow; }
+.button A:hover,.highbutton  A:hover {text-decoration: none; color: Yellow; }
+
+
+.cadrehead {
+	background-color:  #CC99FF;
+	color: #CCFFCC;
+	font-family: Courier New, Courier, Monospace;
+        font-weight: bold;
+        margin: 0;
+}
+.littlehead {
+	background-color:  #CC99FF;
+	color: CCFFCC;
+	font-size:  x-small;
+}
+.fullwidth {
+         background-color: #CCCCFF;
+          width: 100%;
+          margin: 0;
+}
+.scroll {
+        max-height: 20px;
+        overflow: auto;
+}
+.cadrescroll {
+    width: 165;
+    max-height: 20;
+    overflow: scroll;
+}
+.cadretest { width: 165;}
+
+.nullcadre {padding-top: 0px;
+            padding-bottom: 8px;}
+
+#MAIN { 
+        width: 100%;
+        font-size: smaller;
+        border-color: black;
+        border-width: 2px;}
+.nullpadd { padding-right: 0px; }
+.nofixedfont{ font-family: Arial;
+              font-size: x-small;}
+.encadre { width: 100%;
+         height: 100%;
+        border-style: inset;
+        border-width: 2px;
+        }
+.gazette { background-color:  #FFFFDD;
+	color: black;
+    border-style: none  ;
+}
+.gazetteArticle {
+        background-color: #FFFFCC;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        padding: 0px;
+        margin: 0px;
+}
+
+.layout { display: block;}
+.texte  {color: black; font-variant: normal; font-size: 10px; font-family: Verdana, Arial, Helvetica }   
+
+A.menu:link { color: #FFFFFF; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold; text-decoration: none;}
+A.menu:visited { color: #FFFFFF; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold; text-decoration: none; text-decoration: none;}
+A.menu:hover { color: #FFFFFF; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold; text-decoration: underline;}
+td  {color: black; font-variant: normal; font-size: 10px; font-family: Verdana, Arial, Helvetica }
+.titre {color: #000000; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold}
+.titrepave {color: #00599C; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold}
+.titreblanc {color: #FFFFFF; font-size: 10px; font-family: Verdana, Arial, Helvetica  ; font-weight: bold}
+.txtblanc {color: #FFFFFF; font-size: 10px; font-family: Verdana, Arial, Helvetica}
+INPUT {BACKGROUND-COLOR: #E9F4F8; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px}
+SELECT {BACKGROUND-COLOR: #E9F4F8; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px}
+b { font-weight: bold }
+A.dropdown:link {color: #869BB9; text-decoration:none; background-color: #E3F4FF;}
+A.dropdown:visited {color: #869BB9; text-decoration:none; background-color: #E3F4FF;}
+A.dropdown:hover {color: #E3F4FF; text-decoration:none; background-color: #869BB9;}

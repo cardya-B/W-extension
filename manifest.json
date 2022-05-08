@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Pimp my Woltar",
+  "version": "0.1",
+  "content_scripts":
+  [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["<all_urls>","*://www.woltar.com/*","http://www.woltar.com/secure/homeperso.html*", "http://www.woltar.com/lang/fr/secure/deconnecter*","http://www.woltar.com/lang/fr/login.html","http://www.woltar.com/secure/homeperso.html?id=*"]
+  }],
+  "description": "Modify the visuals of Woltar website",
+  "author": "Cardya"
+}
